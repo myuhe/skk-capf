@@ -1,0 +1,22 @@
+#+title: skk-capf
+
+A simple [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Completion-in-Buffers.html][capf]] (Completion-At-Point Function) for [[https://github.com/skk-dev/ddskk][DDSKK]] 
+
+* install
+** manual
+download somewhere and add to your =load-path= 
+
+#+begin_src emacs-lisp
+(require 'skk-capf)
+  
+#+end_src
+
+=packages.el=
+#+begin_src emacs-lisp
+(package! yasnippet-capf
+  :recipe (:host github :repo "elken/yasnippet-capf"))
+#+end_src
+
+
+
+
